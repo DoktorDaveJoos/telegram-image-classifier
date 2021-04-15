@@ -6,9 +6,7 @@
  */
 require('dotenv').config();
 
-require('@tensorflow/tfjs-backend-webgl');
 require('@tensorflow/tfjs-backend-cpu');
-
 
 const tf = require('@tensorflow/tfjs-node');
 
