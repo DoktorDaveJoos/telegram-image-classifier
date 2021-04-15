@@ -1,0 +1,23 @@
+{
+  "name": "daveschatbot",
+  "version": "1.0.0",
+  "description": "Simple Chat Bot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Joos",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs-backend-cpu": "^3.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.4.0",
+    "@tensorflow/tfjs-converter": "^3.4.0",
+    "@tensorflow/tfjs-core": "^3.4.0",
+    "@tensorflow/tfjs-node": "^3.4.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "telegraf": "^4.3.0"
+  }
+}
